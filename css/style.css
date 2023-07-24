@@ -56,4 +56,19 @@ a {
 }
 #main-aksiya {
     background-color: #252420;
+    width: 1100px;
+    height: 419px;
+    top: 1640px;
+    left: 170px;
+    border-radius: 12px;
+}
+#aksiya-colors {
+    color: #ffffff;
+}
+#location {
+    color: #ffffff;
+    font-weight: 700;
+    size: 40px;
+    line-height: 48px;
+    letter-spacing: 0.5px;
 }
