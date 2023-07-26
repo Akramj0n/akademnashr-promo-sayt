@@ -1,3 +1,11 @@
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    font-family: 'Roboto', "Arial", sans-serif;
+    
+}
+
 #site-header {
     background-color: #ffffff;
 }
@@ -22,12 +30,12 @@ a {
 
 #main-link {
     font-size: 13px;
+    line-height: 15px;
     padding: 12px, 24px, 12px, 24px;
     border: 1px solid #FF7500;
     color: #ffffff;
     background: #FF7500;
     text-align: center;
-    line-height: 15px;
     height: 39px;
     width: 152px;
 }
@@ -53,18 +61,15 @@ a {
 #hero-heading {
     font-size: 40px;
     line-height: 1.2;
-    letter-spacing: 0.5px;
+    font-family: 'Roboto Condensed', "Roboto", "Arial", sans-serif;
 }
 
-#hero-text {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.50px;
-}
 
 #hero-img {
     width: 510px;
     height: 510px;
+    border-radius: 8px;
+    /* box-shadow: 24px 24px 0px rgba(255, 117, 0, 0.60); */
 }
 
 
@@ -73,8 +78,8 @@ a {
     width: 440px;
     font-weight: 700;
     font-size: 72px;
-    line-height: 1.2;
-    letter-spacing: 0.5px; 
+    line-height: 1.2; 
+    font-family: 'Roboto Condensed', "Roboto", "Arial", sans-serif;
 }
 
 #feature {
@@ -97,16 +102,14 @@ a {
     font-weight: 700;
     font-size: 24px;
     line-height: 1.2;
-    letter-spacing: 0.5px;
     color: rgba(0, 0, 0, 1);
+    font-family: 'Roboto Condensed', "Roboto", "Arial", sans-serif;
     
 }
 
 #feature-info {
     font-weight: 400;
-    font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.5px;
     color: rgba(0, 0, 0, 1);
 }
 
@@ -128,11 +131,9 @@ a {
 #aksiya-heading {
     font-size: 40px;
     line-height: 48px;
+    font-family: 'Roboto Condensed', "Roboto", "Arial", sans-serif;
 }
-#aksiya-text {
-    font-size: 16px;
-    line-height: 1.5;
-}
+
 
 #aksiya-img {
     width: 440px;
@@ -146,7 +147,6 @@ a {
     font-weight: 700;
     size: 40px;
     line-height: 48px;
-    letter-spacing: 0.5px;
 } */
 
 #aksiya-highlight {
@@ -168,7 +168,6 @@ a {
 
 #site-footer ul {
     list-style: none;
-    font-size: 16px;
     font-weight: 400;
 }
 #site-footer a {
@@ -177,9 +176,9 @@ a {
 
 #site-footer-links {
     width: 224px;
+    line-height: 19px;
 }
 
 #site-footer-links a {
-    font-size: 16px;
-    line-height: 19px;
+    color: #252420;
 }
