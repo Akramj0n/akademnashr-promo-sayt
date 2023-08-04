@@ -223,6 +223,9 @@ a {
 
 #social-list {
     list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 0 ;
 }
 
 #social-list a:hover {
@@ -235,20 +238,35 @@ a {
 
 #site-footer-divider {
     background-color: rgba(37, 36, 32, 0.5);
+    border: 0 ;
     height: 2px;
 }
 
+#site-footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 #site-footer ul {
+    padding: 0;
     list-style: none;
-    font-weight: 400;
 }
 #site-footer a {
     color: #252420;
 }
 
+#site-footer-bottom {
+    
+}
+
 #site-footer-links {
+    display: flex;
+    align-items: center;
     width: 224px;
     line-height: 19px;
+    padding: 0;
+      
 }
 
 #site-footer-links a {
