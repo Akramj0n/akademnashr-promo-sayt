@@ -18,35 +18,44 @@
 <body> 
     
     <!-- SITE-HEADER -->
-    <header id="site-header">
-        <a id="logo-link" href="index.html">
-            <img src="img/akademnashr-logo.svg" alt="Akademnashr logosi" width: 227px; height: 60px;>
-        </a>
+    
+    <header class="site-header">
+        <div class="site-header-container container"></div>
+            <a class="logo-link" href="index.html">
+                <img id="logo-link-img" src="img/akademnashr-logo.svg" alt="Akademnashr logosi" width: 227px; height: 60px; >
+            </a>
         
-        <nav>
-            <ul id="sitenav-list">
-                <li><a id="sitenav-link" href="#">Bosh sahifa</a></li>
-                <li><a id="sitenav-link" href="#">Kitoblar</a></li>
-                <li><a id="sitenav-link" href="#">Aksiyalar</a></li>
-                <li><a id="sitenav-link" href="#">Kontaktlar</a></li>
-            </ul>
-        </nav>
+            <div id="site_header-actions">
+            <!-- SITE NAV -->
+            <nav>
+                <ul id="sitenav-list">
+                    <li id="sitenav-item"><a id="sitenav-link" href="#">Bosh sahifa</a></li>
+                    <li id="sitenav-item"><a id="sitenav-link" href="#">Kitoblar</a></li>
+                    <li id="sitenav-item"><a id="sitenav-link" href="#">Aksiyalar</a></li>
+                    <li id="sitenav-item"><a id="sitenav-link" href="#">Kontaktlar</a></li>
+                </ul>
+            </nav>
         
         
-        <a href="#" id="main-link">Ro'yxatdan o'tish</a>
+                <a href="#" id="main-link">Ro'yxatdan o'tish</a>
+            </div>
+        </div>
     </header>
+    
     
     <!-- HERO -->
     <main>
         <section id="hero">
-            <div id="hero-content">
-                <hr id="orenge-line">
-                    <h2 id="hero-heading">Pythonda dasturlash asoslari</h2>
-                <p id="hero-text">Dasturlash asoslariga oid o‘zbek tilidagi ilk eng mukammal qo‘llanma. Kitobning har bir bo‘limi uchun maxsus video darslar yozilgan bo‘lib, ularga kitobda ko‘rsatilgan QR kod orqali o‘tish mumkin.</p>
-                <a href="#" id="main-link">Buyurtma berish</a>
+            <div class="hero-container container">
+                <div id="hero-content">
+                    <hr id="orenge-line">
+                        <h2 id="hero-heading">Pythonda dasturlash asoslari</h2>
+                    <p id="hero-text">Dasturlash asoslariga oid o‘zbek tilidagi ilk eng mukammal qo‘llanma. Kitobning har bir bo‘limi uchun maxsus video darslar yozilgan bo‘lib, ularga kitobda ko‘rsatilgan QR kod orqali o‘tish mumkin.</p>
+                    <a href="#" id="main-link">Buyurtma berish</a>
+                </div>
+                
+                <img  id="hero-img" src="img/python-book.jpg" alt="Python kitobi" width="510px" height="510px" srcset="img/python-book.jpg 1x, img/python-book@2x.jpg 2x" >
             </div>
-            
-            <img  id="hero-img" src="img/python-book.jpg" alt="Python kitobi" width="510px" height="510px" srcset="img/python-book.jpg 1x, img/python-book@2x.jpg 2x" >
         </section>
         
         
@@ -98,8 +107,11 @@
 
                     <h2 id="aksiya-heading">Bolalar kitoblari uchun ajoyib aksiya!</h2>
                 
-                <p id="aksiya-text">Ertaklar, she’rlar, sarguzasht asarlar, fikrlashni o’stirish uchun turli mashq qo’llanmalari va komikslar.</p>
-                <p id="aksiya-text">Aksiyadagi eng katta to’plamda <b id="aksiya-highlight">50 ta kitob</b>ni <b id="aksiya-highlight">350 ming</b> so’mga (aslida 383 ming so’m) sotib olishingiz mumkin.</p>
+                <div id="promo-info-wrapper">
+                    <p id="aksiya-text">Ertaklar, she’rlar, sarguzasht asarlar, fikrlashni o’stirish uchun turli mashq qo’llanmalari va komikslar.</p>
+                    <p id="aksiya-text">Aksiyadagi eng katta to’plamda <b id="aksiya-highlight">50 ta kitob</b>ni <b id="aksiya-highlight">350 ming</b> so’mga (aslida 383 ming so’m) sotib olishingiz mumkin.</p>
+                </div>
+                
                 <a href="#" id="main-link">Buyurtma berish</a>
             </div>
             

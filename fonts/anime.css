@@ -1,0 +1,14 @@
+h1 {
+    align-items: center;
+    display: flex;
+    width: 500px;
+    height: 300px;
+    color: rgb(9, 206, 108);
+    background-color: rgb(87, 18, 216);
+    margin: auto;
+    padding: 200px;
+    text-align: center;
+    font-size: 700%;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 10px 10px 10px ;
+}
